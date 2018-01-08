@@ -1,0 +1,69 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="fill_parent">
+ 
+   	<TableRow
+      android:id="@+id/tableRow1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+   	    
+ 		<TextView
+        	android:id="@+id/txtStudentID"
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:text="   ID : XXXXXXXXXXXXX" />
+	</TableRow>
+
+   	<TableRow
+      android:id="@+id/tableRow2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >   	
+ 		<TextView
+        	android:id="@+id/txtStudentName"
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:text="   Name : Unknown" />
+	</TableRow>
+	
+   	<TableRow
+      android:id="@+id/tableRow3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >    	
+ 		<TextView
+        	android:id="@+id/txtStudentScore"
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:text="   Score : 0/0" />   		       		    
+	</TableRow>        
+ 	
+
+	<View
+	    android:layout_width="wrap_content"
+	    android:layout_height="1dip"
+	    android:background="#CCCCCC" />
+	
+  <TableLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.1"
+      android:background="@android:color/transparent"
+      android:orientation="horizontal" >
+
+     <ImageView
+          android:id="@+id/imgView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.75"
+          android:background="@android:color/transparent" />
+
+  </TableLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="#CCCCCC" />
+      
+</TableLayout>
+
+

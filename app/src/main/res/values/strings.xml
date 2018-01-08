@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">scanfinger</string>
+
+
+    <!-- Extracted strings -->
+    <string name="mrz_page_title">MRZ Reader</string>
+</resources>
